@@ -1,0 +1,6 @@
+import route from "./routing.js";
+
+document.addEventListener('DOMContentLoaded', route);
+
+// lägger till en lyssnare på händelsen "DOMContentLoaded" på dokumentet... 
+// När webbsidan är helt laddat och alla element har skapats, kommer funktionen route att köras...
